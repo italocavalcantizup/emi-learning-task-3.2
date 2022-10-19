@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Confirmacao Transferencia View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LearningTask_3_2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ConfirmacaoTransferenciaViewController" customModule="LearningTask_3_2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d3R-M4-a0y">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -108,13 +108,13 @@
                                                 <rect key="frame" x="0.0" y="19.5" width="334" height="43"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quando" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ge1-G8-l2Z" userLabel="Label Prefixo Data">
-                                                        <rect key="frame" x="0.0" y="0.0" width="334" height="19.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="334" height="20"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <color key="textColor" systemColor="secondaryLabelColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Agora" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UKH-Y7-vBH" userLabel="Label Data">
-                                                        <rect key="frame" x="0.0" y="23.5" width="334" height="19.5"/>
+                                                        <rect key="frame" x="0.0" y="24" width="334" height="19"/>
                                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -176,13 +176,13 @@
                                                 <rect key="frame" x="0.0" y="19.5" width="334" height="43"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tipo de Transferência" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mwK-eo-pUN" userLabel="Label Prefixo Transferencia">
-                                                        <rect key="frame" x="0.0" y="0.0" width="334" height="19.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="334" height="20"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <color key="textColor" systemColor="secondaryLabelColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pix" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fa0-cz-3V1" userLabel="Label Tipo Transferencia">
-                                                        <rect key="frame" x="0.0" y="23.5" width="334" height="19.5"/>
+                                                        <rect key="frame" x="0.0" y="24" width="334" height="19"/>
                                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -307,7 +307,7 @@
                                     <color key="baseBackgroundColor" name="Sawtooth Aak"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="confirmarButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NbT-hk-3Ci"/>
+                                    <action selector="confirmarButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="diH-J2-h4q"/>
                                 </connections>
                             </button>
                         </subviews>
